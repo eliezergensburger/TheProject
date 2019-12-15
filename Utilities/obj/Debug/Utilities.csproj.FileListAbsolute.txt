@@ -1,0 +1,6 @@
+C:\Users\eliezer\source\repos\The Project\Utilities\bin\Debug\Utilities.dll
+C:\Users\eliezer\source\repos\The Project\Utilities\bin\Debug\Utilities.pdb
+C:\Users\eliezer\source\repos\The Project\Utilities\obj\Debug\Utilities.csprojAssemblyReference.cache
+C:\Users\eliezer\source\repos\The Project\Utilities\obj\Debug\Utilities.csproj.CoreCompileInputs.cache
+C:\Users\eliezer\source\repos\The Project\Utilities\obj\Debug\Utilities.dll
+C:\Users\eliezer\source\repos\The Project\Utilities\obj\Debug\Utilities.pdb

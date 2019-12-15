@@ -1,0 +1,9 @@
+C:\Users\eliezer\source\repos\The Project\BE\bin\Debug\BE.dll
+C:\Users\eliezer\source\repos\The Project\BE\bin\Debug\BE.pdb
+C:\Users\eliezer\source\repos\The Project\BE\bin\Debug\Utilities.dll
+C:\Users\eliezer\source\repos\The Project\BE\bin\Debug\Utilities.pdb
+C:\Users\eliezer\source\repos\The Project\BE\obj\Debug\BE.csprojAssemblyReference.cache
+C:\Users\eliezer\source\repos\The Project\BE\obj\Debug\BE.csproj.CoreCompileInputs.cache
+C:\Users\eliezer\source\repos\The Project\BE\obj\Debug\BE.csproj.CopyComplete
+C:\Users\eliezer\source\repos\The Project\BE\obj\Debug\BE.dll
+C:\Users\eliezer\source\repos\The Project\BE\obj\Debug\BE.pdb
