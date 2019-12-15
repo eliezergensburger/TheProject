@@ -19,7 +19,7 @@ namespace BE.Tests
                 HostKey = "0123456",
                 PrivateName = "kuku",
                 FamilyName = "Forever",
-                MailAddress = "nowhwere@gmail.com",
+                MailAddress = "nowhere@gmail.com",
                 BankAccount = "9089012839",
                 PhoneNumber = "+972 54 55555555",
                 CollectionClearance = "NO"
