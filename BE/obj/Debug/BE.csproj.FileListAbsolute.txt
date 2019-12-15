@@ -7,3 +7,10 @@ C:\Users\eliezer\source\repos\The Project\BE\obj\Debug\BE.csproj.CoreCompileInpu
 C:\Users\eliezer\source\repos\The Project\BE\obj\Debug\BE.csproj.CopyComplete
 C:\Users\eliezer\source\repos\The Project\BE\obj\Debug\BE.dll
 C:\Users\eliezer\source\repos\The Project\BE\obj\Debug\BE.pdb
+C:\Users\student\Source\Repos\TheProject\BE\bin\Debug\BE.dll
+C:\Users\student\Source\Repos\TheProject\BE\bin\Debug\BE.pdb
+C:\Users\student\Source\Repos\TheProject\BE\bin\Debug\Utilities.dll
+C:\Users\student\Source\Repos\TheProject\BE\bin\Debug\Utilities.pdb
+C:\Users\student\Source\Repos\TheProject\BE\obj\Debug\BE.csprojResolveAssemblyReference.cache
+C:\Users\student\Source\Repos\TheProject\BE\obj\Debug\BE.dll
+C:\Users\student\Source\Repos\TheProject\BE\obj\Debug\BE.pdb
