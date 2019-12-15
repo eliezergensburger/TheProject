@@ -29,7 +29,7 @@ namespace DAL
                                  new XElement("HostingUnitKey", d.HostingUnitKey.ToString()),
                                  new XElement("GuestRequestKey", d.GuestRequestKey.ToString()),
                                  new XElement("CreateDate", d.CreateDate.ToString()),
-                                 new XElement("OrderDate", d.OrderDate.ToString(),)
+                                 new XElement("OrderDate", d.OrderDate.ToString()),
                                  new XElement("Status", d.Status.ToString())
                                   );
         }
