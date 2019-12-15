@@ -12,7 +12,7 @@ namespace DAL
     {
         public bool addOrder(Order order)
         {
-            if (DataSourceList.Orders.Any(mishehu => mishehu.Id == order.Id))
+            if (DataSourceList.Orders.Any(mishehu => mishehu.OrderKey == order.OrderKey))
             {
                 return false;
             }
@@ -23,7 +23,7 @@ namespace DAL
         public Order getOrder(int id)
         {
             Order result = (from o in DataSourceList.Orders
-                          where o.Id == id
+                          where o.OrderKey == id
                           select o).FirstOrDefault();
 
             return result.Clone();

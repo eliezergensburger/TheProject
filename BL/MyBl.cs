@@ -13,7 +13,7 @@ namespace BL
         {
             IDal instance = FactorySingletonDal.Instance;
 
-            Order order = instance.getOrder(neworder.Id);
+            Order order = instance.getOrder(neworder.OrderKey);
             if(order.Status== Status.CloseByApp || order.Status==Status.CloseByClient)
             {
                 return false;

@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using Utilities;
 
 namespace BE
 {
@@ -14,5 +15,9 @@ namespace BE
         public String BranchAddress { get; set; }
         public String BranchCity { get; set; }
         public int BankAccountNumber { get; set; }
+        public override string ToString()
+        {
+            return this.TostringProperties();
+        }
     }
 }

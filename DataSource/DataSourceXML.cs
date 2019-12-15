@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace DataSource
 {
-    internal class DataSourceXML
+    public class DataSourceXML
     {
     }
 }
