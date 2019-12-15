@@ -4,6 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using BE;
+using DataSource;
 
 namespace DAL
 {
@@ -11,12 +12,21 @@ namespace DAL
     {
         public bool addOrder(Order order)
         {
-            throw new NotImplementedException();
+            if (DataSourceList.Orders.Any(mishehu => mishehu.Id == order.Id))
+            {
+                return false;
+            }
+            DataSourceList.Orders.Add(order.Clone());
+            return true;
         }
 
         public Order getOrder(int id)
         {
-            throw new NotImplementedException();
+            Order result = (from o in DataSourceList.Orders
+                          where o.Id == id
+                          select o).FirstOrDefault();
+
+            return result.Clone();
         }
     }
 }
