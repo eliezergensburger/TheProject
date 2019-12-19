@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 15
-VisualStudioVersion = 15.0.27703.2035
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29613.14
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BE", "BE\BE.csproj", "{5B08EBB5-67A6-466F-8440-6B447C340648}"
 EndProject
@@ -16,6 +16,8 @@ EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DataSource", "DataSource\DataSource.csproj", "{A3DD3B7D-505F-4808-9362-5E38FBE27921}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BETests", "BETests\BETests.csproj", "{94E672A0-30D5-449D-B138-45720D74E76B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BattleGameConsole", "BattleGameConsole\BattleGameConsole.csproj", "{FDDEBE77-6EAC-4182-A386-0A4E9BEBF8C3}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -51,6 +53,10 @@ Global
 		{94E672A0-30D5-449D-B138-45720D74E76B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{94E672A0-30D5-449D-B138-45720D74E76B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{94E672A0-30D5-449D-B138-45720D74E76B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FDDEBE77-6EAC-4182-A386-0A4E9BEBF8C3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FDDEBE77-6EAC-4182-A386-0A4E9BEBF8C3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FDDEBE77-6EAC-4182-A386-0A4E9BEBF8C3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FDDEBE77-6EAC-4182-A386-0A4E9BEBF8C3}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

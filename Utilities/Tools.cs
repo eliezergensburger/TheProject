@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Collections;
 using System.Collections.Generic;
 using System.Linq;
 using System.Reflection;
@@ -14,7 +15,15 @@ namespace Utilities
             string result = "";
             foreach(PropertyInfo p in t.GetType().GetProperties())
             {
-                result += String.Format("{0,-25} , {1}\n", p.Name, p.GetValue(t, null));
+                if (!(p.PropertyType is IEnumerable))
+                {
+                    result += String.Format("{0,-25} , {1}\n", p.Name, p.GetValue(t, null));
+                }
+                else
+                {
+                    result += String.Format("{0,-25} , {1}\n", p.Name, p.GetValue(t, new object[0]));
+
+                }
             }
             return result;
         }

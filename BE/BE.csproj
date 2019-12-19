@@ -41,6 +41,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="BankAccount.cs" />
+    <Compile Include="BattlePlayer.cs" />
     <Compile Include="Configuration.cs" />
     <Compile Include="Enums.cs" />
     <Compile Include="GuestRequest.cs" />

@@ -9,3 +9,8 @@ C:\Users\student\Source\Repos\TheProject\Utilities\bin\Debug\Utilities.pdb
 C:\Users\student\Source\Repos\TheProject\Utilities\obj\Debug\Utilities.csprojResolveAssemblyReference.cache
 C:\Users\student\Source\Repos\TheProject\Utilities\obj\Debug\Utilities.dll
 C:\Users\student\Source\Repos\TheProject\Utilities\obj\Debug\Utilities.pdb
+C:\Users\Eliezer\Source\Repos\eliezergensburger\TheProject\Utilities\bin\Debug\Utilities.dll
+C:\Users\Eliezer\Source\Repos\eliezergensburger\TheProject\Utilities\bin\Debug\Utilities.pdb
+C:\Users\Eliezer\Source\Repos\eliezergensburger\TheProject\Utilities\obj\Debug\Utilities.csprojAssemblyReference.cache
+C:\Users\Eliezer\Source\Repos\eliezergensburger\TheProject\Utilities\obj\Debug\Utilities.dll
+C:\Users\Eliezer\Source\Repos\eliezergensburger\TheProject\Utilities\obj\Debug\Utilities.pdb

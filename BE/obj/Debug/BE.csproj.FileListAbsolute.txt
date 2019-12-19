@@ -14,3 +14,11 @@ C:\Users\student\Source\Repos\TheProject\BE\bin\Debug\Utilities.pdb
 C:\Users\student\Source\Repos\TheProject\BE\obj\Debug\BE.csprojResolveAssemblyReference.cache
 C:\Users\student\Source\Repos\TheProject\BE\obj\Debug\BE.dll
 C:\Users\student\Source\Repos\TheProject\BE\obj\Debug\BE.pdb
+C:\Users\Eliezer\Source\Repos\eliezergensburger\TheProject\BE\bin\Debug\BE.dll
+C:\Users\Eliezer\Source\Repos\eliezergensburger\TheProject\BE\bin\Debug\BE.pdb
+C:\Users\Eliezer\Source\Repos\eliezergensburger\TheProject\BE\bin\Debug\Utilities.dll
+C:\Users\Eliezer\Source\Repos\eliezergensburger\TheProject\BE\bin\Debug\Utilities.pdb
+C:\Users\Eliezer\Source\Repos\eliezergensburger\TheProject\BE\obj\Debug\BE.csprojAssemblyReference.cache
+C:\Users\Eliezer\Source\Repos\eliezergensburger\TheProject\BE\obj\Debug\BE.csproj.CopyComplete
+C:\Users\Eliezer\Source\Repos\eliezergensburger\TheProject\BE\obj\Debug\BE.dll
+C:\Users\Eliezer\Source\Repos\eliezergensburger\TheProject\BE\obj\Debug\BE.pdb

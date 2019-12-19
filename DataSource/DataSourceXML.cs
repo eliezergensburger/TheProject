@@ -10,9 +10,7 @@ namespace DataSource
 {
     public class DataSourceXML
     {
-
-
-
+        
         public static void SaveToXML<T>(T source, string path)
         {
             FileStream file = new FileStream(path, FileMode.Create);
@@ -28,5 +26,6 @@ namespace DataSource
             file.Close();
             return result;
         }
+
     }
 }

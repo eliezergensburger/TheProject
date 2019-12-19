@@ -33,5 +33,19 @@ namespace DAL
                                  new XElement("Status", d.Status.ToString())
                                   );
         }
+
+        public static XElement ToXML(this BattlePlayer b)
+        {
+            return new XElement("BattlePlayer",
+                                 new XElement("Name", b.Name.ToString()),
+                                 new XElement("Board",
+                                        (from v in b.Board.ToString()
+                                             select v).ToArray(),
+                                        (from v in b.OpponentBoard.ToString()
+                                             select v).ToArray()
+                                     )
+                                 );
+        }
+
     }
 }
