@@ -22,3 +22,12 @@ C:\Users\Eliezer\Source\Repos\eliezergensburger\TheProject\BE\obj\Debug\BE.cspro
 C:\Users\Eliezer\Source\Repos\eliezergensburger\TheProject\BE\obj\Debug\BE.csproj.CopyComplete
 C:\Users\Eliezer\Source\Repos\eliezergensburger\TheProject\BE\obj\Debug\BE.dll
 C:\Users\Eliezer\Source\Repos\eliezergensburger\TheProject\BE\obj\Debug\BE.pdb
+C:\Users\eliezer\Source\Repos\TheProject2\BE\bin\Debug\BE.dll
+C:\Users\eliezer\Source\Repos\TheProject2\BE\bin\Debug\BE.pdb
+C:\Users\eliezer\Source\Repos\TheProject2\BE\bin\Debug\Utilities.dll
+C:\Users\eliezer\Source\Repos\TheProject2\BE\bin\Debug\Utilities.pdb
+C:\Users\eliezer\Source\Repos\TheProject2\BE\obj\Debug\BE.csprojAssemblyReference.cache
+C:\Users\eliezer\Source\Repos\TheProject2\BE\obj\Debug\BE.csproj.CoreCompileInputs.cache
+C:\Users\eliezer\Source\Repos\TheProject2\BE\obj\Debug\BE.csproj.CopyComplete
+C:\Users\eliezer\Source\Repos\TheProject2\BE\obj\Debug\BE.dll
+C:\Users\eliezer\Source\Repos\TheProject2\BE\obj\Debug\BE.pdb

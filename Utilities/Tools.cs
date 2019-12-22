@@ -4,6 +4,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Reflection;
 using System.Text;
+using System.Text.RegularExpressions;
 using System.Threading.Tasks;
 
 namespace Utilities
@@ -13,7 +14,7 @@ namespace Utilities
         public static String TostringProperties<T>(this T t)
         {
             string result = "";
-            foreach(PropertyInfo p in t.GetType().GetProperties())
+            foreach (PropertyInfo p in t.GetType().GetProperties())
             {
                 if (!(p.PropertyType is IEnumerable))
                 {
@@ -61,5 +62,12 @@ namespace Utilities
             return arrExpanded;
         }
 
+        //https://code.4noobz.net/c-email-validation/
+        public static bool ValidateMail(string emailAddress)
+        {
+            var regex = @"\A(?:[a-z0-9!#$%&'*+/=?^_`{|}~-]+(?:\.[a-z0-9!#$%&'*+/=?^_`{|}~-]+)*@(?:[a-z0-9](?:[a-z0-9-]*[a-z0-9])?\.)+[a-z0-9](?:[a-z0-9-]*[a-z0-9])?)\Z";
+            bool isValid = Regex.IsMatch(emailAddress, regex, RegexOptions.IgnoreCase);
+            return isValid;
+        }
     }
 }

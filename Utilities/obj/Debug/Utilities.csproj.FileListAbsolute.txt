@@ -14,3 +14,9 @@ C:\Users\Eliezer\Source\Repos\eliezergensburger\TheProject\Utilities\bin\Debug\U
 C:\Users\Eliezer\Source\Repos\eliezergensburger\TheProject\Utilities\obj\Debug\Utilities.csprojAssemblyReference.cache
 C:\Users\Eliezer\Source\Repos\eliezergensburger\TheProject\Utilities\obj\Debug\Utilities.dll
 C:\Users\Eliezer\Source\Repos\eliezergensburger\TheProject\Utilities\obj\Debug\Utilities.pdb
+C:\Users\eliezer\Source\Repos\TheProject2\Utilities\bin\Debug\Utilities.dll
+C:\Users\eliezer\Source\Repos\TheProject2\Utilities\bin\Debug\Utilities.pdb
+C:\Users\eliezer\Source\Repos\TheProject2\Utilities\obj\Debug\Utilities.csprojAssemblyReference.cache
+C:\Users\eliezer\Source\Repos\TheProject2\Utilities\obj\Debug\Utilities.csproj.CoreCompileInputs.cache
+C:\Users\eliezer\Source\Repos\TheProject2\Utilities\obj\Debug\Utilities.dll
+C:\Users\eliezer\Source\Repos\TheProject2\Utilities\obj\Debug\Utilities.pdb
