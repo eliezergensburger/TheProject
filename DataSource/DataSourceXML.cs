@@ -18,6 +18,7 @@ namespace DataSource
             xmlSerializer.Serialize(file, source);
             file.Close();
         }
+
         public static T LoadFromXML<T>(string path)
         {
             FileStream file = new FileStream(path, FileMode.Open);
