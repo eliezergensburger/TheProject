@@ -40,7 +40,9 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="MyBl.cs" />
+    <Compile Include="BLClassic.cs" />
+    <Compile Include="FactorySingletonBL.cs" />
+    <Compile Include="Ibl.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>

@@ -39,3 +39,16 @@ C:\Users\eliezer\Source\Repos\TheProject2\BL\obj\Debug\BL.csproj.CoreCompileInpu
 C:\Users\eliezer\Source\Repos\TheProject2\BL\obj\Debug\BL.csproj.CopyComplete
 C:\Users\eliezer\Source\Repos\TheProject2\BL\obj\Debug\BL.dll
 C:\Users\eliezer\Source\Repos\TheProject2\BL\obj\Debug\BL.pdb
+C:\Users\Eliezer\Source\Repos\eliezergensburger\TheProject\BL\bin\Debug\BL.dll
+C:\Users\Eliezer\Source\Repos\eliezergensburger\TheProject\BL\bin\Debug\BL.pdb
+C:\Users\Eliezer\Source\Repos\eliezergensburger\TheProject\BL\bin\Debug\BE.dll
+C:\Users\Eliezer\Source\Repos\eliezergensburger\TheProject\BL\bin\Debug\DAL.dll
+C:\Users\Eliezer\Source\Repos\eliezergensburger\TheProject\BL\bin\Debug\Utilities.dll
+C:\Users\Eliezer\Source\Repos\eliezergensburger\TheProject\BL\bin\Debug\DataSource.dll
+C:\Users\Eliezer\Source\Repos\eliezergensburger\TheProject\BL\bin\Debug\BE.pdb
+C:\Users\Eliezer\Source\Repos\eliezergensburger\TheProject\BL\bin\Debug\DAL.pdb
+C:\Users\Eliezer\Source\Repos\eliezergensburger\TheProject\BL\bin\Debug\Utilities.pdb
+C:\Users\Eliezer\Source\Repos\eliezergensburger\TheProject\BL\bin\Debug\DataSource.pdb
+C:\Users\Eliezer\Source\Repos\eliezergensburger\TheProject\BL\obj\Debug\BL.csproj.CopyComplete
+C:\Users\Eliezer\Source\Repos\eliezergensburger\TheProject\BL\obj\Debug\BL.dll
+C:\Users\Eliezer\Source\Repos\eliezergensburger\TheProject\BL\obj\Debug\BL.pdb

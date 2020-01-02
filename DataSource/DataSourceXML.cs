@@ -4,29 +4,121 @@ using System.IO;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using System.Xml.Linq;
 using System.Xml.Serialization;
 
 namespace DataSource
 {
-    public class DataSourceXML
+    public static class DataSourceXML
     {
-        
-        public static void SaveToXML<T>(T source, string path)
+        //private static string currentDirectory = Directory.GetCurrentDirectory();
+        private static string solutionDirectory = Directory.GetParent(Directory.GetParent(Directory.GetParent(Directory.GetCurrentDirectory()).FullName).FullName).FullName;
+
+        private static string filePath = System.IO.Path.Combine(solutionDirectory, "DataSource", "DataXML");
+
+
+        private static XElement traineeRoot = null;
+        private static XElement testerRoot = null;
+        private static XElement drivingtestRoot = null;
+
+
+        private static string traineePath = Path.Combine(filePath, "TraineeXml.xml");
+        private static string testerPath = Path.Combine(filePath, "TesterXml.xml");
+        private static string drivingtestPath = Path.Combine(filePath, "DrivingtestXml.xml");
+
+        static DataSourceXML()
         {
-            FileStream file = new FileStream(path, FileMode.Create);
-            XmlSerializer xmlSerializer = new XmlSerializer(source.GetType());
-            xmlSerializer.Serialize(file, source);
-            file.Close();
+            bool exists = Directory.Exists(filePath);
+            if (!exists)
+            {
+                Directory.CreateDirectory(filePath);
+            }
+
+            if (!File.Exists(traineePath))
+            {
+                CreateFile("Trainees", traineePath);
+
+            }
+            traineeRoot = LoadData(traineePath);
+
+
+            if (!File.Exists(testerPath))
+            {
+                CreateFile("Testers", testerPath);
+
+            }
+            testerRoot = LoadData(testerPath);
+
+            if (!File.Exists(drivingtestPath))
+            {
+                CreateFile("DrivingTests", drivingtestPath);
+
+            }
+            drivingtestRoot = LoadData(drivingtestPath);
+
+        }
+        private static void CreateFile(string typename, string path)
+        {
+            XElement root = new XElement(typename);
+            root.Save(path);
         }
 
-        public static T LoadFromXML<T>(string path)
+        public static void SaveTrainees()
         {
-            FileStream file = new FileStream(path, FileMode.Open);
-            XmlSerializer xmlSerializer = new XmlSerializer(typeof(T));
-            T result = (T)xmlSerializer.Deserialize(file);
-            file.Close();
-            return result;
+            traineeRoot.Save(traineePath);
         }
+
+        public static void SaveTesters()
+        {
+            testerRoot.Save(testerPath);
+        }
+
+        public static void SaveDrivingtests()
+        {
+            drivingtestRoot.Save(drivingtestPath);
+        }
+
+        public static XElement Trainees
+        {
+            get
+            {
+                traineeRoot = LoadData(traineePath);
+                return traineeRoot;
+            }
+        }
+
+        public static XElement Testers
+        {
+            get
+            {
+                testerRoot = LoadData(testerPath);
+                return testerRoot;
+            }
+        }
+
+        public static XElement DrivingTests
+        {
+            get
+            {
+                drivingtestRoot = LoadData(drivingtestPath);
+                return drivingtestRoot;
+            }
+        }
+
+        private static XElement LoadData(string path)
+        {
+            XElement root;
+            try
+            {
+                root = XElement.Load(path);
+            }
+            catch
+            {
+                throw new Exception("File upload problem");
+            }
+            return root;
+        }
+
 
     }
 }

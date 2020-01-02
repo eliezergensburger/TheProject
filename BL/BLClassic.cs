@@ -7,14 +7,16 @@ using BE;
 using DAL;
 namespace BL
 {
-    public class MyBl
+    internal class BLClassic : Ibl
     {
         public bool AddOrder(Order neworder)
         {
             IDal instance = FactorySingletonDal.Instance;
 
+            // do all kind of verifications accordind to BL logic
+
             Order order = instance.getOrder(neworder.OrderKey);
-            if(order.Status== Status.CloseByApp || order.Status==Status.CloseByClient)
+            if (order.Status == Status.CloseByApp || order.Status == Status.CloseByClient)
             {
                 return false;
             }

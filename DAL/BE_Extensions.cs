@@ -5,11 +5,34 @@ using System.Text;
 using System.Threading.Tasks;
 using BE;
 using System.Xml.Linq;
+using System.IO;
+using System.Xml.Serialization;
 
 namespace DAL
 {
     public static class BE_Extensions
     {
+        /// <summary>
+        /// doesn't work with nested classes as proofedint ToolsTests
+        /// </summary>
+        /// <typeparam name="T"></typeparam>
+        /// <param name="t"></param>
+        /// <returns></returns>
+        //public static T Clone<T>(this T t) where T : class, new()
+        //{
+        //    T result = new T();
+        //    if (t.GetType().Name != "BE.Person")
+        //    {
+
+        //        result = new T();
+        //        foreach (PropertyInfo item in t.GetType().GetProperties())
+        //        {
+        //            item.SetValue(result, item.GetValue(t, null));
+        //        }
+        //    }
+        //    return result;
+        //}
+
         public static Order Clone(this Order order)
         {
             return new Order
@@ -46,6 +69,42 @@ namespace DAL
                                      )
                                  );
         }
+
+        public static void SaveToXML<T>(T source, string path)
+        {
+            FileStream file = new FileStream(path, FileMode.Create);
+            XmlSerializer xmlSerializer = new XmlSerializer(source.GetType());
+            xmlSerializer.Serialize(file, source);
+            file.Close();
+        }
+
+        public static T LoadFromXML<T>(string path)
+        {
+            FileStream file = new FileStream(path, FileMode.Open);
+            XmlSerializer xmlSerializer = new XmlSerializer(typeof(T));
+            T result = (T)xmlSerializer.Deserialize(file);
+            file.Close();
+            return result;
+        }
+
+        public static string ToXMLstring<T>(this T toSerialize)
+        {
+            using (StringWriter textWriter = new StringWriter())
+            {
+                XmlSerializer xmlSerializer = new XmlSerializer(typeof(T));
+                xmlSerializer.Serialize(textWriter, toSerialize);
+                return textWriter.ToString();
+            }
+        }
+        public static T ToObject<T>(this string toDeserialize)
+        {
+            using (StringReader textReader = new StringReader(toDeserialize))
+            {
+                XmlSerializer xmlSerializer = new XmlSerializer(typeof(T));
+                return (T)xmlSerializer.Deserialize(textReader);
+            }
+        }
+
 
     }
 }

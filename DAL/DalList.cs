@@ -8,7 +8,7 @@ using DataSource;
 
 namespace DAL
 {
-    class DalList : IDal
+    internal class DalList : IDal
     {
         public bool addOrder(Order order)
         {
@@ -23,10 +23,28 @@ namespace DAL
         public Order getOrder(int id)
         {
             Order result = (from o in DataSourceList.Orders
-                          where o.OrderKey == id
-                          select o).FirstOrDefault();
+                            where o.OrderKey == id
+                            select o).FirstOrDefault();
 
             return result.Clone();
+        }
+
+        public bool updateOrder(Order updateorder)
+        {
+            Order findOrder = (from o in DataSourceList.Orders
+                               where o.OrderKey == updateorder.OrderKey
+                               select o).FirstOrDefault();
+            if (findOrder != null)
+            {
+                //findOrder.GuestRequestKey = updateorder.GuestRequestKey;
+                //findOrder.HostingUnitKey = updateorder.HostingUnitKey;
+                //findOrder.OrderDate = updateorder.OrderDate;
+                //findOrder.Status = updateorder.Status;
+
+                findOrder = updateorder.Clone();
+                return true;
+            }
+            return false;
         }
     }
 }

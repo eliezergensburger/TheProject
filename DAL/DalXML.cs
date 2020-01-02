@@ -20,5 +20,14 @@ namespace DAL
 
             };
         }
+
+        public bool updateOrder(Order updateorder)
+        {
+            var findOrder = (from o in DataSource.DataSourceXML.DrivingTests.Elements()
+                               where o.OrderKey == updateorder.OrderKey
+                               select o).FirstOrDefault();
+            //TO DO
+            return true;
+        }
     }
 }
