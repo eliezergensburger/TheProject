@@ -26,7 +26,7 @@ namespace BE
         public HostingUnit()
         {
             Diary = new bool[12, 31];
-            HostingUnitKey = Configuration.serialHostingUnit++;
+            HostingUnitKey = 6666;
         }
 
         public override string ToString()

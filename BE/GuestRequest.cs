@@ -9,7 +9,7 @@ namespace BE
 {
     public class GuestRequest
     {
-        public int GuestRequestKey { get; private set; }
+        public int GuestRequestKey { get;  set; }
         public String PrivateName { get; set; }
         public String FamilyName { get; set; }
         public String MailAddress { get; set; }
@@ -29,7 +29,8 @@ namespace BE
 
         public GuestRequest()
         {
-            GuestRequestKey = Configuration.serialGuestRequest++;
+            //please moved to BL
+            //GuestRequestKey = Configuration.serialGuestRequest++;
         }
 
         public override string ToString()

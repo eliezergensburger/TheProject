@@ -9,6 +9,15 @@ namespace BL
 {
     internal class BLClassic : Ibl
     {
+        public bool AddGuestRequest(GuestRequest guestRequest)
+        {
+            //put verifications here
+            guestRequest.GuestRequestKey = Configuration.serialGuestRequest++;
+
+            FactorySingletonDal.Instance.addGuestRequest(guestRequest);
+            return true;
+        }
+
         public bool AddOrder(Order neworder)
         {
             IDal instance = FactorySingletonDal.Instance;
@@ -16,14 +25,19 @@ namespace BL
             // do all kind of verifications accordind to BL logic
 
             Order order = instance.getOrder(neworder.OrderKey);
-            if (order.Status == Status.CloseByApp || order.Status == Status.CloseByClient)
+            if (order != null)
             {
-                return false;
+                if (order.Status == Status.CloseByApp || order.Status == Status.CloseByClient)
+                {
+                    return false;
+                }
+                else
+                {
+                }
             }
-            else
-            {
-                instance.addOrder(neworder);
-            }
+
+            instance.addOrder(neworder);
+
             return true;
         }
     }

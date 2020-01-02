@@ -17,13 +17,13 @@ namespace DataSource
         private static string filePath = System.IO.Path.Combine(solutionDirectory, "DataSource", "DataXML");
 
 
-        private static XElement traineeRoot = null;
-        private static XElement testerRoot = null;
+        private static XElement orderRoot = null;
+        private static XElement guestRequestRoot = null;
         private static XElement drivingtestRoot = null;
 
 
-        private static string traineePath = Path.Combine(filePath, "TraineeXml.xml");
-        private static string testerPath = Path.Combine(filePath, "TesterXml.xml");
+        private static string orderPath = Path.Combine(filePath, "OrderXml.xml");
+        private static string guestRequestPath = Path.Combine(filePath, "GuestRequestXml.xml");
         private static string drivingtestPath = Path.Combine(filePath, "DrivingtestXml.xml");
 
         static DataSourceXML()
@@ -34,20 +34,20 @@ namespace DataSource
                 Directory.CreateDirectory(filePath);
             }
 
-            if (!File.Exists(traineePath))
+            if (!File.Exists(orderPath))
             {
-                CreateFile("Trainees", traineePath);
+                CreateFile("Orders", orderPath);
 
             }
-            traineeRoot = LoadData(traineePath);
+            orderRoot = LoadData(orderPath);
 
 
-            if (!File.Exists(testerPath))
+            if (!File.Exists(guestRequestPath))
             {
-                CreateFile("Testers", testerPath);
+                CreateFile("GuestRequests", guestRequestPath);
 
             }
-            testerRoot = LoadData(testerPath);
+            guestRequestRoot = LoadData(guestRequestPath);
 
             if (!File.Exists(drivingtestPath))
             {
@@ -63,14 +63,14 @@ namespace DataSource
             root.Save(path);
         }
 
-        public static void SaveTrainees()
+        public static void SaveOrders()
         {
-            traineeRoot.Save(traineePath);
+            orderRoot.Save(orderPath);
         }
 
-        public static void SaveTesters()
+        public static void SaveGuestRequests()
         {
-            testerRoot.Save(testerPath);
+            guestRequestRoot.Save(guestRequestPath);
         }
 
         public static void SaveDrivingtests()
@@ -78,21 +78,21 @@ namespace DataSource
             drivingtestRoot.Save(drivingtestPath);
         }
 
-        public static XElement Trainees
+        public static XElement Orders
         {
             get
             {
-                traineeRoot = LoadData(traineePath);
-                return traineeRoot;
+                orderRoot = LoadData(orderPath);
+                return orderRoot;
             }
         }
 
-        public static XElement Testers
+        public static XElement GuestRequests
         {
             get
             {
-                testerRoot = LoadData(testerPath);
-                return testerRoot;
+                guestRequestRoot = LoadData(guestRequestPath);
+                return guestRequestRoot;
             }
         }
 

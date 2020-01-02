@@ -7,5 +7,6 @@ namespace DAL
         bool addOrder(Order order);
         Order getOrder(int id);
         bool updateOrder(Order order);
+        bool addGuestRequest(GuestRequest gr);
     }
 }

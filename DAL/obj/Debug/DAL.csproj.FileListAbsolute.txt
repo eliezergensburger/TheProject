@@ -36,3 +36,12 @@ C:\Users\eliezer\Source\Repos\TheProject2\DAL\obj\Debug\DAL.pdb
 C:\Users\Eliezer\Source\Repos\eliezergensburger\TheProject\DAL\obj\Debug\DAL.csprojAssemblyReference.cache
 C:\Users\Eliezer\Source\Repos\eliezergensburger\TheProject\DAL\obj\Debug\DAL.dll
 C:\Users\Eliezer\Source\Repos\eliezergensburger\TheProject\DAL\obj\Debug\DAL.pdb
+C:\Users\Eliezer\Source\Repos\eliezergensburger\TheProject\DAL\bin\Debug\DAL.dll
+C:\Users\Eliezer\Source\Repos\eliezergensburger\TheProject\DAL\bin\Debug\DAL.pdb
+C:\Users\Eliezer\Source\Repos\eliezergensburger\TheProject\DAL\bin\Debug\BE.dll
+C:\Users\Eliezer\Source\Repos\eliezergensburger\TheProject\DAL\bin\Debug\DataSource.dll
+C:\Users\Eliezer\Source\Repos\eliezergensburger\TheProject\DAL\bin\Debug\Utilities.dll
+C:\Users\Eliezer\Source\Repos\eliezergensburger\TheProject\DAL\bin\Debug\BE.pdb
+C:\Users\Eliezer\Source\Repos\eliezergensburger\TheProject\DAL\bin\Debug\DataSource.pdb
+C:\Users\Eliezer\Source\Repos\eliezergensburger\TheProject\DAL\bin\Debug\Utilities.pdb
+C:\Users\Eliezer\Source\Repos\eliezergensburger\TheProject\DAL\obj\Debug\DAL.csproj.CopyComplete

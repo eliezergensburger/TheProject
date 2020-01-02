@@ -9,6 +9,11 @@ namespace DAL
 {
     internal class DalCloud : IDal
     {
+        public bool addGuestRequest(GuestRequest gr)
+        {
+            throw new NotImplementedException();
+        }
+
         public bool addOrder(Order order)
         {
             throw new NotImplementedException();

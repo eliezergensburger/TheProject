@@ -10,6 +10,11 @@ namespace DAL
 {
     internal class DalList : IDal
     {
+        public bool addGuestRequest(GuestRequest gr)
+        {
+            throw new NotImplementedException();
+        }
+
         public bool addOrder(Order order)
         {
             if (DataSourceList.Orders.Any(mishehu => mishehu.OrderKey == order.OrderKey))
@@ -41,6 +46,7 @@ namespace DAL
                 //findOrder.OrderDate = updateorder.OrderDate;
                 //findOrder.Status = updateorder.Status;
 
+                // courtesy of Raphael Ohana 
                 findOrder = updateorder.Clone();
                 return true;
             }

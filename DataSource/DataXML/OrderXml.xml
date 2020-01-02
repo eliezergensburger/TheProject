@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Orders>
+  <Order>
+    <OrderKey>23</OrderKey>
+    <HostingUnitKey>12123</HostingUnitKey>
+    <GuestRequestKey>imbecile heureux</GuestRequestKey>
+    <CreateDate>30/12/2019 16:52:25</CreateDate>
+    <OrderDate>02/01/2020 16:52:25</OrderDate>
+    <Status>NotYetApproved</Status>
+  </Order>
+</Orders>

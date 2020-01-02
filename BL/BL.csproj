@@ -41,6 +41,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="BLClassic.cs" />
+    <Compile Include="Configuration.cs" />
     <Compile Include="FactorySingletonBL.cs" />
     <Compile Include="Ibl.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
