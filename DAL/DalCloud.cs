@@ -19,7 +19,17 @@ namespace DAL
             throw new NotImplementedException();
         }
 
+        public List<Order> getAllorders()
+        {
+            throw new NotImplementedException();
+        }
+
         public Order getOrder(int id)
+        {
+            throw new NotImplementedException();
+        }
+
+        public string getserialGuestRequest()
         {
             throw new NotImplementedException();
         }

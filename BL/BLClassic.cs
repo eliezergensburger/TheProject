@@ -9,6 +9,11 @@ namespace BL
 {
     internal class BLClassic : Ibl
     {
+        public BLClassic()
+        {
+            IDal intance = FactorySingletonDal.Instance;
+            Configuration.serialGuestRequest = Int32.Parse(intance.getserialGuestRequest());
+        }
         public bool AddGuestRequest(GuestRequest guestRequest)
         {
             //put verifications here
@@ -24,16 +29,11 @@ namespace BL
 
             // do all kind of verifications accordind to BL logic
 
-            Order order = instance.getOrder(neworder.OrderKey);
-            if (order != null)
+           // Order order = instance.getOrder(neworder.OrderKey);
+           // if(order != null)
+            if (instance.getAllorders().Any(o => o.OrderKey == neworder.OrderKey))
             {
-                if (order.Status == Status.CloseByApp || order.Status == Status.CloseByClient)
-                {
-                    return false;
-                }
-                else
-                {
-                }
+                return false;
             }
 
             instance.addOrder(neworder);

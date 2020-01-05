@@ -37,7 +37,7 @@ namespace PL
                 GuestRequestKey = "imbecile heureux",
                 HostingUnitKey = "12123",
                 OrderDate = DateTime.Now,
-                OrderKey = 23
+                OrderKey = 24
             };
             instance.AddOrder(order);
 

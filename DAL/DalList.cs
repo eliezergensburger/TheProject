@@ -10,6 +10,10 @@ namespace DAL
 {
     internal class DalList : IDal
     {
+        private static string serialGuestRequest = "10000000";
+        private static double commision = 10;    //10 shekels -- zol meod
+        private static string  serialHostingUnit = "10000000";
+
         public bool addGuestRequest(GuestRequest gr)
         {
             throw new NotImplementedException();
@@ -25,6 +29,17 @@ namespace DAL
             return true;
         }
 
+        public List<Order> getAllorders()
+        {
+
+            //TO DO
+            //deep clone
+            var result = from o in DataSourceList.Orders
+                         select o.Clone();
+
+            return result.ToList();
+        }
+
         public Order getOrder(int id)
         {
             Order result = (from o in DataSourceList.Orders
@@ -32,6 +47,11 @@ namespace DAL
                             select o).FirstOrDefault();
 
             return result.Clone();
+        }
+
+        public string getserialGuestRequest()
+        {
+            return serialGuestRequest;
         }
 
         public bool updateOrder(Order updateorder)

@@ -39,3 +39,14 @@ C:\Users\Eliezer\Source\Repos\eliezergensburger\TheProject\DataSource\obj\Debug\
 C:\Users\Eliezer\Source\Repos\eliezergensburger\TheProject\DataSource\obj\Debug\DataSource.csproj.CopyComplete
 C:\Users\Eliezer\Source\Repos\eliezergensburger\TheProject\DataSource\obj\Debug\DataSource.dll
 C:\Users\Eliezer\Source\Repos\eliezergensburger\TheProject\DataSource\obj\Debug\DataSource.pdb
+C:\Users\eliezer\Source\Repos\TheProject\DataSource\bin\Debug\DataSource.dll
+C:\Users\eliezer\Source\Repos\TheProject\DataSource\bin\Debug\DataSource.pdb
+C:\Users\eliezer\Source\Repos\TheProject\DataSource\bin\Debug\BE.dll
+C:\Users\eliezer\Source\Repos\TheProject\DataSource\bin\Debug\Utilities.dll
+C:\Users\eliezer\Source\Repos\TheProject\DataSource\bin\Debug\BE.pdb
+C:\Users\eliezer\Source\Repos\TheProject\DataSource\bin\Debug\Utilities.pdb
+C:\Users\eliezer\Source\Repos\TheProject\DataSource\obj\Debug\DataSource.csprojAssemblyReference.cache
+C:\Users\eliezer\Source\Repos\TheProject\DataSource\obj\Debug\DataSource.csproj.CoreCompileInputs.cache
+C:\Users\eliezer\Source\Repos\TheProject\DataSource\obj\Debug\DataSource.csproj.CopyComplete
+C:\Users\eliezer\Source\Repos\TheProject\DataSource\obj\Debug\DataSource.dll
+C:\Users\eliezer\Source\Repos\TheProject\DataSource\obj\Debug\DataSource.pdb
