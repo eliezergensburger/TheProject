@@ -23,7 +23,10 @@ namespace DAL
         }
         public bool addGuestRequest(GuestRequest gr)
         {
-            throw new NotImplementedException();
+            DataSource.DataSourceXML.GuestRequests.Add(XElement.Parse(gr.ToXMLstring()));
+            DataSource.DataSourceXML.GuestRequests.Element("lastSerial").Value = gr.GuestRequestKey.ToXMLstring();
+            DataSource.DataSourceXML.SaveGuestRequests();
+            return true;
         }
 
         public bool addOrder(Order neworder)
@@ -66,7 +69,8 @@ namespace DAL
 
         public string getserialGuestRequest()
         {
-            throw new NotImplementedException();
+            String result = DataSource.DataSourceXML.GuestRequests.Element("lastSerial").Value;
+            return result;
         }
 
         public bool updateOrder(Order updateorder)

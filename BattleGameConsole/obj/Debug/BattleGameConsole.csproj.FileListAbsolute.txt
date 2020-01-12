@@ -33,3 +33,13 @@ C:\Users\eliezer\Source\Repos\TheProject\BattleGameConsole\obj\Debug\BattleGameC
 C:\Users\eliezer\Source\Repos\TheProject\BattleGameConsole\obj\Debug\BattleGameConsole.csproj.CopyComplete
 C:\Users\eliezer\Source\Repos\TheProject\BattleGameConsole\obj\Debug\BattleGameConsole.exe
 C:\Users\eliezer\Source\Repos\TheProject\BattleGameConsole\obj\Debug\BattleGameConsole.pdb
+C:\Users\student\Source\Repos\TheProject\BattleGameConsole\bin\Debug\BattleGameConsole.exe.config
+C:\Users\student\Source\Repos\TheProject\BattleGameConsole\bin\Debug\BattleGameConsole.exe
+C:\Users\student\Source\Repos\TheProject\BattleGameConsole\bin\Debug\BattleGameConsole.pdb
+C:\Users\student\Source\Repos\TheProject\BattleGameConsole\bin\Debug\BE.dll
+C:\Users\student\Source\Repos\TheProject\BattleGameConsole\bin\Debug\Utilities.dll
+C:\Users\student\Source\Repos\TheProject\BattleGameConsole\bin\Debug\BE.pdb
+C:\Users\student\Source\Repos\TheProject\BattleGameConsole\bin\Debug\Utilities.pdb
+C:\Users\student\Source\Repos\TheProject\BattleGameConsole\obj\Debug\BattleGameConsole.csprojResolveAssemblyReference.cache
+C:\Users\student\Source\Repos\TheProject\BattleGameConsole\obj\Debug\BattleGameConsole.exe
+C:\Users\student\Source\Repos\TheProject\BattleGameConsole\obj\Debug\BattleGameConsole.pdb

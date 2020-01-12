@@ -123,3 +123,5 @@ C:\Users\eliezer\Source\Repos\TheProject\PL\obj\Debug\PL.csproj.CoreCompileInput
 C:\Users\eliezer\Source\Repos\TheProject\PL\obj\Debug\PL.csproj.CopyComplete
 C:\Users\eliezer\Source\Repos\TheProject\PL\obj\Debug\PL.exe
 C:\Users\eliezer\Source\Repos\TheProject\PL\obj\Debug\PL.pdb
+C:\Users\student\Source\Repos\TheProject\PL\obj\Debug\GuestRequestWindow.g.cs
+C:\Users\student\Source\Repos\TheProject\PL\obj\Debug\GuestRequestWindow.baml

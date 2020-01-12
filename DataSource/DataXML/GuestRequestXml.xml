@@ -1,5 +1,4 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-
-<GuestRequests >
-<lastSerial>10000000</lastSerial>
+<GuestRequests>
+  <lastSerial>10000000</lastSerial>
 </GuestRequests>
