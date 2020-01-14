@@ -7,7 +7,8 @@
         mc:Ignorable="d"
         Title="MainWindow" Height="450" Width="800">
     <Grid>
-        <Button x:Name="btn" Content="Add GuestRequest YAMASH" HorizontalAlignment="Left" Margin="209,241,0,0" VerticalAlignment="Top" Width="217" Click="Button_Click" Height="86"/>
+        <Button x:Name="btn" Content="Add GuestRequest YAMASH" HorizontalAlignment="Left" Margin="67,244,0,0" VerticalAlignment="Top" Width="217" Click="Button_Click" Height="86"/>
+        <Button x:Name="btnAddHost" Content="Add Host YAMASH" HorizontalAlignment="Left" Margin="423,244,0,0" VerticalAlignment="Top" Width="217" Height="86" Click="btnAddHost_Click"/>
 
     </Grid>
 </Window>

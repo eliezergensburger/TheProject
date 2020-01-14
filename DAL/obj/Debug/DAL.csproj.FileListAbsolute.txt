@@ -58,3 +58,4 @@ C:\Users\eliezer\Source\Repos\TheProject\DAL\obj\Debug\DAL.csproj.CoreCompileInp
 C:\Users\eliezer\Source\Repos\TheProject\DAL\obj\Debug\DAL.csproj.CopyComplete
 C:\Users\eliezer\Source\Repos\TheProject\DAL\obj\Debug\DAL.dll
 C:\Users\eliezer\Source\Repos\TheProject\DAL\obj\Debug\DAL.pdb
+C:\Users\eliezer\Source\Repos\eliezergensburger\TheProject\DAL\obj\Debug\DAL.csproj.CoreCompileInputs.cache

@@ -40,3 +40,4 @@ C:\Users\eliezer\Source\Repos\TheProject\BE\obj\Debug\BE.csproj.CoreCompileInput
 C:\Users\eliezer\Source\Repos\TheProject\BE\obj\Debug\BE.csproj.CopyComplete
 C:\Users\eliezer\Source\Repos\TheProject\BE\obj\Debug\BE.dll
 C:\Users\eliezer\Source\Repos\TheProject\BE\obj\Debug\BE.pdb
+C:\Users\eliezer\Source\Repos\eliezergensburger\TheProject\BE\obj\Debug\BE.csproj.CoreCompileInputs.cache

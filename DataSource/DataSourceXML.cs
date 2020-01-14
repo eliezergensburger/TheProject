@@ -19,12 +19,16 @@ namespace DataSource
 
         private static XElement orderRoot = null;
         private static XElement guestRequestRoot = null;
-        private static XElement drivingtestRoot = null;
+        private static XElement hostRoot = null;
+        private static XElement hostingUnitRoot = null;
 
 
         private static string orderPath = Path.Combine(filePath, "OrderXml.xml");
         private static string guestRequestPath = Path.Combine(filePath, "GuestRequestXml.xml");
-        private static string drivingtestPath = Path.Combine(filePath, "DrivingtestXml.xml");
+        private static string hostPath = Path.Combine(filePath, "HostXml.xml");
+        private static string hostingUnitPath = Path.Combine(filePath, "HostingUnitXml.xml");
+
+
 
         static DataSourceXML()
         {
@@ -41,6 +45,20 @@ namespace DataSource
             }
             orderRoot = LoadData(orderPath);
 
+            if (!File.Exists(hostPath))
+            {
+                CreateFile("Hosts", hostPath);
+
+            }
+            hostRoot = LoadData(hostPath);
+
+            if (!File.Exists(hostingUnitPath))
+            {
+                CreateFile("HostingUnits", hostingUnitPath);
+
+            }
+            hostingUnitRoot = LoadData(hostingUnitPath);
+
 
             if (!File.Exists(guestRequestPath))
             {
@@ -48,13 +66,6 @@ namespace DataSource
 
             }
             guestRequestRoot = LoadData(guestRequestPath);
-
-            if (!File.Exists(drivingtestPath))
-            {
-                CreateFile("DrivingTests", drivingtestPath);
-
-            }
-            drivingtestRoot = LoadData(drivingtestPath);
 
         }
         private static void CreateFile(string typename, string path)
@@ -68,14 +79,19 @@ namespace DataSource
             orderRoot.Save(orderPath);
         }
 
+        public static void SaveHostingUnits()
+        {
+            hostingUnitRoot.Save(hostingUnitPath);
+        }
+
+        public static void SaveHosts()
+        {
+            hostRoot.Save(hostPath);
+        }
+
         public static void SaveGuestRequests()
         {
             guestRequestRoot.Save(guestRequestPath);
-        }
-
-        public static void SaveDrivingtests()
-        {
-            drivingtestRoot.Save(drivingtestPath);
         }
 
         public static XElement Orders
@@ -84,6 +100,24 @@ namespace DataSource
             {
                 orderRoot = LoadData(orderPath);
                 return orderRoot;
+            }
+        }
+
+        public static XElement Hosts
+        {
+            get
+            {
+                hostRoot = LoadData(hostPath);
+                return hostRoot;
+            }
+        }
+
+        public static XElement HostingUnits
+        {
+            get
+            {
+                hostingUnitRoot = LoadData(hostingUnitPath);
+                return hostingUnitRoot;
             }
         }
 
@@ -96,16 +130,7 @@ namespace DataSource
             }
         }
 
-        public static XElement DrivingTests
-        {
-            get
-            {
-                drivingtestRoot = LoadData(drivingtestPath);
-                return drivingtestRoot;
-            }
-        }
-
-        private static XElement LoadData(string path)
+          private static XElement LoadData(string path)
         {
             XElement root;
             try

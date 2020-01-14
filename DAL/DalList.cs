@@ -19,6 +19,16 @@ namespace DAL
             throw new NotImplementedException();
         }
 
+        public bool addHost(Host host)
+        {
+            throw new NotImplementedException();
+        }
+
+        public bool addHostingUnit(HostingUnit HostingUnit)
+        {
+            throw new NotImplementedException();
+        }
+
         public bool addOrder(Order order)
         {
             if (DataSourceList.Orders.Any(mishehu => mishehu.OrderKey == order.OrderKey))
@@ -27,6 +37,21 @@ namespace DAL
             }
             DataSourceList.Orders.Add(order.Clone());
             return true;
+        }
+
+        public List<GuestRequest> getAllGuestRequests()
+        {
+            throw new NotImplementedException();
+        }
+
+        public List<HostingUnit> getAllHostingUnits()
+        {
+            throw new NotImplementedException();
+        }
+
+        public List<Host> getAllHosts()
+        {
+            throw new NotImplementedException();
         }
 
         public List<Order> getAllorders()
@@ -38,6 +63,21 @@ namespace DAL
                          select o.Clone();
 
             return result.ToList();
+        }
+
+        public GuestRequest getGuestRequest(int id)
+        {
+            throw new NotImplementedException();
+        }
+
+        public Host getHost(int id)
+        {
+            throw new NotImplementedException();
+        }
+
+        public HostingUnit getHostingUnit(int id)
+        {
+            throw new NotImplementedException();
         }
 
         public Order getOrder(int id)
@@ -52,6 +92,21 @@ namespace DAL
         public string getserialGuestRequest()
         {
             return serialGuestRequest;
+        }
+
+        public bool updateGuestRequest(GuestRequest guestRequest)
+        {
+            throw new NotImplementedException();
+        }
+
+        public bool updateHost(Host host)
+        {
+            throw new NotImplementedException();
+        }
+
+        public bool updateHostingUnit(HostingUnit HostingUnit)
+        {
+            throw new NotImplementedException();
         }
 
         public bool updateOrder(Order updateorder)

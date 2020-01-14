@@ -15,7 +15,7 @@ namespace BE
         public String PhoneNumber { get; set; }
         public String MailAddress { get; set; }
         public String BankAccount { get; set; }
-        public String CollectionClearance { get; set; }
+        public CollectionClearance CollectionClearance { get; set; }
 
         public override string ToString()
         {

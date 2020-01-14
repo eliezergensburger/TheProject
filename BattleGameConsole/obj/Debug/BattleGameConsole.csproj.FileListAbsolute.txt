@@ -43,3 +43,4 @@ C:\Users\student\Source\Repos\TheProject\BattleGameConsole\bin\Debug\Utilities.p
 C:\Users\student\Source\Repos\TheProject\BattleGameConsole\obj\Debug\BattleGameConsole.csprojResolveAssemblyReference.cache
 C:\Users\student\Source\Repos\TheProject\BattleGameConsole\obj\Debug\BattleGameConsole.exe
 C:\Users\student\Source\Repos\TheProject\BattleGameConsole\obj\Debug\BattleGameConsole.pdb
+C:\Users\eliezer\Source\Repos\eliezergensburger\TheProject\BattleGameConsole\obj\Debug\BattleGameConsole.csproj.CoreCompileInputs.cache

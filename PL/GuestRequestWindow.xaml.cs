@@ -20,7 +20,7 @@ namespace PL
     /// </summary>
     public partial class GuestRequestWindow : Window
     {
-        GuestRequest guestRequest;
+        private GuestRequest guestRequest = null;
         public GuestRequest GuestRequest { get => guestRequest; }
 
         public GuestRequestWindow()

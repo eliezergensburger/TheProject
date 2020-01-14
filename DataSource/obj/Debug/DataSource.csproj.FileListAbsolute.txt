@@ -50,3 +50,4 @@ C:\Users\eliezer\Source\Repos\TheProject\DataSource\obj\Debug\DataSource.csproj.
 C:\Users\eliezer\Source\Repos\TheProject\DataSource\obj\Debug\DataSource.csproj.CopyComplete
 C:\Users\eliezer\Source\Repos\TheProject\DataSource\obj\Debug\DataSource.dll
 C:\Users\eliezer\Source\Repos\TheProject\DataSource\obj\Debug\DataSource.pdb
+C:\Users\eliezer\Source\Repos\eliezergensburger\TheProject\DataSource\obj\Debug\DataSource.csproj.CoreCompileInputs.cache

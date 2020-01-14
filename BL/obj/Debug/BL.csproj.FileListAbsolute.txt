@@ -68,3 +68,4 @@ C:\Users\eliezer\Source\Repos\TheProject\BL\obj\Debug\BL.csproj.CoreCompileInput
 C:\Users\eliezer\Source\Repos\TheProject\BL\obj\Debug\BL.csproj.CopyComplete
 C:\Users\eliezer\Source\Repos\TheProject\BL\obj\Debug\BL.dll
 C:\Users\eliezer\Source\Repos\TheProject\BL\obj\Debug\BL.pdb
+C:\Users\eliezer\Source\Repos\eliezergensburger\TheProject\BL\obj\Debug\BL.csproj.CoreCompileInputs.cache

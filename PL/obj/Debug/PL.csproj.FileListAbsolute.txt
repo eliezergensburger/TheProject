@@ -125,3 +125,8 @@ C:\Users\eliezer\Source\Repos\TheProject\PL\obj\Debug\PL.exe
 C:\Users\eliezer\Source\Repos\TheProject\PL\obj\Debug\PL.pdb
 C:\Users\student\Source\Repos\TheProject\PL\obj\Debug\GuestRequestWindow.g.cs
 C:\Users\student\Source\Repos\TheProject\PL\obj\Debug\GuestRequestWindow.baml
+C:\Users\eliezer\Source\Repos\eliezergensburger\TheProject\PL\obj\Debug\GuestRequestWindow.g.cs
+C:\Users\eliezer\Source\Repos\eliezergensburger\TheProject\PL\obj\Debug\GuestRequestWindow.baml
+C:\Users\eliezer\Source\Repos\eliezergensburger\TheProject\PL\obj\Debug\PL.csproj.CoreCompileInputs.cache
+C:\Users\eliezer\Source\Repos\eliezergensburger\TheProject\PL\obj\Debug\AddHostWindow.g.cs
+C:\Users\eliezer\Source\Repos\eliezergensburger\TheProject\PL\obj\Debug\AddHostWindow.baml

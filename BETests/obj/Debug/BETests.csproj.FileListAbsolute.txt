@@ -85,3 +85,4 @@ C:\Users\eliezer\Source\Repos\TheProject\BETests\obj\Debug\BETests.csproj.CoreCo
 C:\Users\eliezer\Source\Repos\TheProject\BETests\obj\Debug\BETests.csproj.CopyComplete
 C:\Users\eliezer\Source\Repos\TheProject\BETests\obj\Debug\BETests.dll
 C:\Users\eliezer\Source\Repos\TheProject\BETests\obj\Debug\BETests.pdb
+C:\Users\eliezer\Source\Repos\eliezergensburger\TheProject\BETests\obj\Debug\BETests.csproj.CoreCompileInputs.cache

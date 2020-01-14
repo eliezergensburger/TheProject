@@ -22,7 +22,7 @@ namespace BE.Tests
                 MailAddress = "nowhere@gmail.com",
                 BankAccount = "9089012839",
                 PhoneNumber = "+972 54 55555555",
-                CollectionClearance = "NO"
+                CollectionClearance = CollectionClearance.NA
             };
             Console.WriteLine(host);
             Assert.IsTrue(true);

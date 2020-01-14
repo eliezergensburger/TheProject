@@ -13,16 +13,20 @@ namespace BE
 
     public enum Area
     {
-        Jerusalem,North,South,Center
+        Jerusalem, North, South, Center
     }
 
     public enum HostingType
     {
-        Zimmer,Hotel,Camping,RentingRoom
+        Zimmer, Hotel, Camping, RentingRoom
     }
 
     public enum Requirements
     {
         Necessary, Possible, NotNecessary
+    }
+    public enum CollectionClearance
+    {
+        Yes, No, Maybe, NA
     }
 }

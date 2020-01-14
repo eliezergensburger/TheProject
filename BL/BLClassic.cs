@@ -23,6 +23,20 @@ namespace BL
             return true;
         }
 
+        public bool AddHost(Host host)
+        {
+            IDal instance = FactorySingletonDal.Instance;
+            if (instance.getAllHosts().Any(h => h.HostKey == host.HostKey))
+            {
+                return false;
+            }
+
+            instance.addHost(host);
+
+            return true;
+
+        }
+
         public bool AddOrder(Order neworder)
         {
             IDal instance = FactorySingletonDal.Instance;

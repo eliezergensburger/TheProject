@@ -31,15 +31,7 @@ namespace PL
 
         private void Button_Click(object sender, RoutedEventArgs e)
         {
-            //Order order = new Order
-            //{
-            //    CreateDate = DateTime.Now.AddDays(-3),
-            //    GuestRequestKey = "imbecile heureux",
-            //    HostingUnitKey = "12123",
-            //    OrderDate = DateTime.Now,
-            //    OrderKey = 24
-            //};
-
+  
             GuestRequestWindow wnd = new GuestRequestWindow();
             wnd.ShowDialog();
             if (wnd.DialogResult== true)
@@ -49,6 +41,16 @@ namespace PL
                 //TO DO
             }
 
+        }
+
+        private void btnAddHost_Click(object sender, RoutedEventArgs e)
+        {
+            AddHostWindow wnd = new AddHostWindow();
+            wnd.ShowDialog();
+            if(wnd.DialogResult==true)
+            {               
+                instance.AddHost(wnd.Host);
+            }
         }
     }
 }

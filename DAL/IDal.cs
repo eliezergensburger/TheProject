@@ -12,6 +12,22 @@ namespace DAL
         Order getOrder(int id);
         List<Order> getAllorders();
         bool updateOrder(Order order);
-        bool addGuestRequest(GuestRequest gr);
+
+        bool addHost(Host host);
+        Host getHost(int id);
+        List<Host> getAllHosts();
+        bool updateHost(Host host);
+
+        bool addHostingUnit(HostingUnit HostingUnit);
+        HostingUnit getHostingUnit(int id);
+        List<HostingUnit> getAllHostingUnits();
+        bool updateHostingUnit(HostingUnit HostingUnit);
+
+        bool addGuestRequest(GuestRequest guestRequest);
+        GuestRequest getGuestRequest(int id);
+        List<GuestRequest> getAllGuestRequests();
+        bool updateGuestRequest(GuestRequest guestRequest);
+
+
     }
 }
