@@ -11,6 +11,7 @@ using System.Windows.Input;
 using System.Windows.Media;
 using System.Windows.Media.Imaging;
 using System.Windows.Shapes;
+using BE;
 
 namespace PL
 {
@@ -19,10 +20,19 @@ namespace PL
     /// </summary>
     public partial class HostingUnitWindow : Window
     {
+        HostingUnit hostingUnit;
+        public HostingUnit HostingUnit { get => hostingUnit; }
         public HostingUnitWindow()
         {
             InitializeComponent();
+            hostingUnit = new HostingUnit();
+            gridAddHostingUnit.DataContext = hostingUnit;
+
         }
 
+        private void Addbtn_Click(object sender, RoutedEventArgs e)
+        {
+            BL.FactorySingletonBL.getInstance().AddHostingUnit(hostingUnit);
+        }
     }
 }

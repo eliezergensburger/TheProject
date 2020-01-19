@@ -100,6 +100,14 @@ namespace PL
             }
             this._contentLoaded = true;
         }
+
+        internal System.Windows.Controls.TextBox hostingUnitNameTextBox;
+        internal System.Windows.Controls.TextBox ownerTextBox;
+        internal System.Windows.Controls.DataGrid hostingUnitDataGrid;
+        internal System.Windows.Controls.DataGridTextColumn hostingUnitNameColumn;
+        internal System.Windows.Controls.DataGridTextColumn ownerColumn;
+        internal System.Windows.Controls.Button Addbtn;
+        internal System.Windows.Controls.Grid gridAddHostingUnit;
     }
 }
 

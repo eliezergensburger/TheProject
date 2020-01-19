@@ -7,13 +7,17 @@
         xmlns:BE="clr-namespace:BE;assembly=BE" x:Class="PL.HostingUnitWindow"
         mc:Ignorable="d"
         Title="HostingUnitWindow" Height="504.808" Width="902.885" SizeToContent="WidthAndHeight" >
-     <Grid RenderTransformOrigin="0.479,0.509" Height="419" VerticalAlignment="Bottom">
+    <Grid  Height="474" VerticalAlignment="Bottom">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="8*"/>
+            <RowDefinition Height="71*"/>
+        </Grid.RowDefinitions>
         <Grid.ColumnDefinitions>
             <ColumnDefinition Width="40*"/>
             <ColumnDefinition Width="60*"/>
         </Grid.ColumnDefinitions>
-
-        <Grid x:Name="grid1" VerticalAlignment="Top" Margin="42,66,0,0" HorizontalAlignment="Left">
+        <Label Grid.ColumnSpan="2"  HorizontalAlignment="Center" Content="HostingUnits" FontSize="20"/>
+        <Grid x:Name="gridAddHostingUnit" VerticalAlignment="Top" Margin="42,18.324,0,0" HorizontalAlignment="Left" Grid.Row="1">
             <Grid.RowDefinitions>
                 <RowDefinition Height="Auto"/>
                 <RowDefinition Height="Auto"/>
@@ -28,7 +32,7 @@
             <Label VerticalAlignment="Center" Grid.Row="1" Margin="3,3,0,3" HorizontalAlignment="Left" Grid.Column="0" Content="Owner:" Grid.ColumnSpan="2"/>
             <TextBox x:Name="ownerTextBox" Width="120" VerticalAlignment="Center" Text="{Binding Owner, Mode=TwoWay, NotifyOnValidationError=true, ValidatesOnExceptions=true}" Grid.Row="1" Margin="3,4,0,4" Height="24" HorizontalAlignment="Left" Grid.Column="2"/>
         </Grid>
-        <DataGrid x:Name="hostingUnitDataGrid" AutoGenerateColumns="False" Grid.Column="1" EnableRowVirtualization="True" ItemsSource="{Binding}" Margin="19,86,81,133" RowDetailsVisibilityMode="VisibleWhenSelected" RenderTransformOrigin="0.5,0.5">
+        <DataGrid x:Name="hostingUnitDataGrid" AutoGenerateColumns="False" Grid.Column="1" EnableRowVirtualization="True" ItemsSource="{Binding}" Margin="19,38.324,81,133" RowDetailsVisibilityMode="VisibleWhenSelected" RenderTransformOrigin="0.5,0.5" Grid.Row="1">
             <DataGrid.RenderTransform>
                 <TransformGroup>
                     <ScaleTransform/>
@@ -42,7 +46,7 @@
                 <DataGridTextColumn x:Name="ownerColumn" Binding="{Binding Owner}" Header="Owner" Width="SizeToHeader"/>
             </DataGrid.Columns>
         </DataGrid>
-        <Button x:Name="Addbtn" Content="Add" HorizontalAlignment="Left" Margin="118,218,0,0" VerticalAlignment="Top" Width="75"/>
+        <Button x:Name="Addbtn" Content="Add" HorizontalAlignment="Left" Margin="118,170.324,0,0" VerticalAlignment="Top" Width="75" Grid.Row="1" Click="Addbtn_Click"/>
 
     </Grid>
 </Window>

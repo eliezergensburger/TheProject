@@ -37,6 +37,12 @@ namespace BL
 
         }
 
+        public bool AddHostingUnit(HostingUnit hostingUnit)
+        {
+            IDal instance = FactorySingletonDal.Instance;
+            throw new NotImplementedException();
+        }
+
         public bool AddOrder(Order neworder)
         {
             IDal instance = FactorySingletonDal.Instance;
