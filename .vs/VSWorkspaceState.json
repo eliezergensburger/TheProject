@@ -1,6 +1,10 @@
 {
   "ExpandedNodes": [
-    ""
+    "",
+    "\\BL",
+    "\\DAL",
+    "\\DataSource",
+    "\\DataSource\\DataXML"
   ],
   "SelectedNode": "\\The Project.sln",
   "PreviewInSolutionExplorer": false

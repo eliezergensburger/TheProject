@@ -52,5 +52,11 @@ namespace PL
                 instance.AddHost(wnd.Host);
             }
         }
+
+        private void HostingUnitsBtn_Click(object sender, RoutedEventArgs e)
+        {
+            HostingUnitWindow wnd = new HostingUnitWindow();
+            wnd.Show();
+        }
     }
 }

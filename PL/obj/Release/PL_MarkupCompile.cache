@@ -4,17 +4,17 @@
 winexe
 C#
 .cs
-C:\Users\eliezer\Source\Repos\eliezergensburger\TheProject\PL\obj\Release\
+C:\Users\eliezer\Source\Repos\TheProject\PL\obj\Release\
 PL
 none
 false
 TRACE
-C:\Users\eliezer\Source\Repos\eliezergensburger\TheProject\PL\App.xaml
-2-1970296978
+C:\Users\eliezer\Source\Repos\TheProject\PL\App.xaml
+4-1954331628
 
-61929662627
-151630155969
-GuestRequestWindow.xaml;MainWindow.xaml;
+8827592789
+16-1443566754
+AddHostWindow.xaml;GuestRequestWindow.xaml;HostingUnitWindow.xaml;MainWindow.xaml;
 
 True
 

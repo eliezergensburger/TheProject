@@ -130,3 +130,9 @@ C:\Users\eliezer\Source\Repos\eliezergensburger\TheProject\PL\obj\Debug\GuestReq
 C:\Users\eliezer\Source\Repos\eliezergensburger\TheProject\PL\obj\Debug\PL.csproj.CoreCompileInputs.cache
 C:\Users\eliezer\Source\Repos\eliezergensburger\TheProject\PL\obj\Debug\AddHostWindow.g.cs
 C:\Users\eliezer\Source\Repos\eliezergensburger\TheProject\PL\obj\Debug\AddHostWindow.baml
+C:\Users\eliezer\Source\Repos\TheProject\PL\obj\Debug\AddHostWindow.g.cs
+C:\Users\eliezer\Source\Repos\TheProject\PL\obj\Debug\GuestRequestWindow.g.cs
+C:\Users\eliezer\Source\Repos\TheProject\PL\obj\Debug\AddHostWindow.baml
+C:\Users\eliezer\Source\Repos\TheProject\PL\obj\Debug\GuestRequestWindow.baml
+C:\Users\eliezer\Source\Repos\TheProject\PL\obj\Debug\HostingUnitWindow.g.cs
+C:\Users\eliezer\Source\Repos\TheProject\PL\obj\Debug\HostingUnitWindow.baml

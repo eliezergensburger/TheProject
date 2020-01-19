@@ -17,9 +17,9 @@ namespace BL
         public bool AddGuestRequest(GuestRequest guestRequest)
         {
             //put verifications here
-            guestRequest.GuestRequestKey = Configuration.serialGuestRequest++;
-
+            guestRequest.GuestRequestKey = Configuration.serialGuestRequest;
             FactorySingletonDal.Instance.addGuestRequest(guestRequest);
+            ++(Configuration.serialGuestRequest);
             return true;
         }
 

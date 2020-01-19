@@ -22,6 +22,8 @@ namespace BE
             set { Diary = value.Expand(4); }
         }
 
+        public List<string> images { get; set; }
+
 
         public HostingUnit()
         {

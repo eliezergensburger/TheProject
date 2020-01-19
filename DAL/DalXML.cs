@@ -23,8 +23,10 @@ namespace DAL
         }
         public bool addGuestRequest(GuestRequest gr)
         {
-            DataSource.DataSourceXML.GuestRequests.Add(XElement.Parse(gr.ToXMLstring()));
-            DataSource.DataSourceXML.GuestRequests.Element("lastSerial").Value = gr.GuestRequestKey.ToXMLstring();
+            XElement guestRequestElement = XElement.Parse(gr.ToXMLstring());
+            DataSource.DataSourceXML.GuestRequests.Element("lastSerial").Value = guestRequestElement.Element("GuestRequestKey").Value;
+            DataSource.DataSourceXML.SaveGuestRequests();
+            DataSource.DataSourceXML.GuestRequests.Add(guestRequestElement);
             DataSource.DataSourceXML.SaveGuestRequests();
             return true;
         }
@@ -32,7 +34,8 @@ namespace DAL
         public bool addHost(Host host)
         {
             DataSource.DataSourceXML.Hosts.Add(XElement.Parse(host.ToXMLstring()));
-     //       DataSource.DataSourceXML.Hosts.Element("lastSerial").Value = host.HostKey.ToXMLstring();
+             DataSource.DataSourceXML.SaveHosts();
+            DataSource.DataSourceXML.Hosts.Element("lastSerial").Value = host.HostKey.ToXMLstring();
             DataSource.DataSourceXML.SaveHosts();
             return true;
         }
@@ -54,6 +57,7 @@ namespace DAL
             //}
             neworder.OrderKey = serialOrder++;
             DataSource.DataSourceXML.Orders.Add(neworder.ToXML());
+            DataSource.DataSourceXML.SaveOrders();
             DataSource.DataSourceXML.Orders.Element("lastSerial").Value = neworder.OrderKey.ToString();
             DataSource.DataSourceXML.SaveOrders();
             return true;
