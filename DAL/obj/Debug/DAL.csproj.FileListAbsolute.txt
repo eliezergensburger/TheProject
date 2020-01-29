@@ -54,8 +54,6 @@ C:\Users\eliezer\Source\Repos\TheProject\DAL\bin\Debug\Utilities.dll
 C:\Users\eliezer\Source\Repos\TheProject\DAL\bin\Debug\BE.pdb
 C:\Users\eliezer\Source\Repos\TheProject\DAL\bin\Debug\DataSource.pdb
 C:\Users\eliezer\Source\Repos\TheProject\DAL\bin\Debug\Utilities.pdb
-C:\Users\eliezer\Source\Repos\TheProject\DAL\obj\Debug\DAL.csprojAssemblyReference.cache
-C:\Users\eliezer\Source\Repos\TheProject\DAL\obj\Debug\DAL.csproj.CoreCompileInputs.cache
-C:\Users\eliezer\Source\Repos\TheProject\DAL\obj\Debug\DAL.csproj.CopyComplete
 C:\Users\eliezer\Source\Repos\TheProject\DAL\obj\Debug\DAL.dll
 C:\Users\eliezer\Source\Repos\TheProject\DAL\obj\Debug\DAL.pdb
+C:\Users\eliezer\Source\Repos\TheProject\DAL\obj\Debug\DAL.csprojResolveAssemblyReference.cache

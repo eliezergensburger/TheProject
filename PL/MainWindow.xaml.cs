@@ -58,5 +58,11 @@ namespace PL
             HostingUnitWindow wnd = new HostingUnitWindow();
             wnd.Show();
         }
+
+        private void BanksBtn_Click(object sender, RoutedEventArgs e)
+        {
+            BankWindow banksWindow = new BankWindow();
+            banksWindow.Show();
+        }
     }
 }

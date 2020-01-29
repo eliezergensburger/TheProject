@@ -1,0 +1,15 @@
+﻿<Window x:Class="PL.BankWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:PL"
+        mc:Ignorable="d"
+        Title="BankWindow" Height="395.062" Width="518.519">
+    <Grid>
+        <DataGrid x:Name="banksDatagrid" HorizontalAlignment="Left" Height="190" Margin="42,59,0,0" VerticalAlignment="Top" Width="418" ItemsSource="{Binding}"/>
+        <Button x:Name="populateBanksBtn" Content="Populate Banks" HorizontalAlignment="Left" Margin="42,277,0,0" VerticalAlignment="Top" Width="108" Height="26" Click="populateBanksBtn_Click"/>
+        <ProgressBar x:Name="progressBar" HorizontalAlignment="Left" Height="12" Margin="209,277,0,0" VerticalAlignment="Top" Width="231" Maximum="100"/>
+
+    </Grid>
+</Window>
