@@ -36,6 +36,6 @@ C:\Users\eliezer\Source\Repos\TheProject\BE\bin\Debug\BE.dll
 C:\Users\eliezer\Source\Repos\TheProject\BE\bin\Debug\BE.pdb
 C:\Users\eliezer\Source\Repos\TheProject\BE\bin\Debug\Utilities.dll
 C:\Users\eliezer\Source\Repos\TheProject\BE\bin\Debug\Utilities.pdb
+C:\Users\eliezer\Source\Repos\TheProject\BE\obj\Debug\BE.csprojResolveAssemblyReference.cache
 C:\Users\eliezer\Source\Repos\TheProject\BE\obj\Debug\BE.dll
 C:\Users\eliezer\Source\Repos\TheProject\BE\obj\Debug\BE.pdb
-C:\Users\eliezer\Source\Repos\TheProject\BE\obj\Debug\BE.csprojResolveAssemblyReference.cache

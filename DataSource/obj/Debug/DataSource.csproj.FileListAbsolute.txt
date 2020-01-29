@@ -46,6 +46,6 @@ C:\Users\eliezer\Source\Repos\TheProject\DataSource\bin\Debug\BE.dll
 C:\Users\eliezer\Source\Repos\TheProject\DataSource\bin\Debug\Utilities.dll
 C:\Users\eliezer\Source\Repos\TheProject\DataSource\bin\Debug\BE.pdb
 C:\Users\eliezer\Source\Repos\TheProject\DataSource\bin\Debug\Utilities.pdb
+C:\Users\eliezer\Source\Repos\TheProject\DataSource\obj\Debug\DataSource.csprojResolveAssemblyReference.cache
 C:\Users\eliezer\Source\Repos\TheProject\DataSource\obj\Debug\DataSource.dll
 C:\Users\eliezer\Source\Repos\TheProject\DataSource\obj\Debug\DataSource.pdb
-C:\Users\eliezer\Source\Repos\TheProject\DataSource\obj\Debug\DataSource.csprojResolveAssemblyReference.cache

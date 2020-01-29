@@ -23,4 +23,3 @@ C:\Users\eliezer\Source\Repos\TheProject\Utilities\bin\Debug\Utilities.dll
 C:\Users\eliezer\Source\Repos\TheProject\Utilities\bin\Debug\Utilities.pdb
 C:\Users\eliezer\Source\Repos\TheProject\Utilities\obj\Debug\Utilities.dll
 C:\Users\eliezer\Source\Repos\TheProject\Utilities\obj\Debug\Utilities.pdb
-C:\Users\eliezer\Source\Repos\TheProject\Utilities\obj\Debug\Utilities.csprojResolveAssemblyReference.cache
