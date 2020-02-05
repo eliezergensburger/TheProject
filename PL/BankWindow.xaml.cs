@@ -106,7 +106,7 @@ namespace PL
         private void RowSelected(object sender, SelectionChangedEventArgs e)
         {
             DataRowView rowView = banksDatagrid.SelectedItem as DataRowView;
-            MessageBox.Show(rowView[4].ToString(),"כתובת הסניף");
+            MessageBox.Show(rowView["Address"].ToString(),"כתובת הסניף");
         }
     }
 }
