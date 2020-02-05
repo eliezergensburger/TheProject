@@ -12,7 +12,7 @@
             <RowDefinition Height="3*"/>
         </Grid.RowDefinitions>
         <DataGrid x:Name="banksDatagrid" HorizontalAlignment="Left" Height="223" 
-                  Margin="42,37,0,0" VerticalAlignment="Top" Width="398" ItemsSource="{Binding}"/>
+                  Margin="42,37,0,0" VerticalAlignment="Top" Width="398" ItemsSource="{Binding}" SelectionChanged="RowSelected"/>
         <Button x:Name="populateBanksBtn" Content="Populate Banks" HorizontalAlignment="Left" 
                 Margin="42,277,0,0" VerticalAlignment="Top" Width="131" Height="40" 
                 Click="populateBanksBtn_Click" FontSize="16" FontWeight="Bold"/>
