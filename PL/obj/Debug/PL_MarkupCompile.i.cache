@@ -10,11 +10,11 @@ none
 false
 DEBUG;TRACE
 C:\Users\eliezer\Source\Repos\TheProject\PL\App.xaml
-5-1731837221
+6-1130713249
 
-13-14713650
+14795468135
 16-1090168514
-AddHostWindow.xaml;BankWindow.xaml;GuestRequestWindow.xaml;HostingUnitWindow.xaml;MainWindow.xaml;
+AddHostWindow.xaml;BankWindow.xaml;GuestRequestWindow.xaml;HostingUnitWindow.xaml;MainWindow.xaml;SendingMailWindow.xaml;
 
-True
+False
 

@@ -136,3 +136,5 @@ C:\Users\eliezer\Source\Repos\TheProject\PL\obj\Debug\PL.Properties.Resources.re
 C:\Users\eliezer\Source\Repos\TheProject\PL\obj\Debug\PL.csproj.GenerateResource.Cache
 C:\Users\eliezer\Source\Repos\TheProject\PL\obj\Debug\PL.exe
 C:\Users\eliezer\Source\Repos\TheProject\PL\obj\Debug\PL.pdb
+C:\Users\eliezer\Source\Repos\TheProject\PL\obj\Debug\SendingMailWindow.g.cs
+C:\Users\eliezer\Source\Repos\TheProject\PL\obj\Debug\SendingMailWindow.baml
